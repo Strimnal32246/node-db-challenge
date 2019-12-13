@@ -25,9 +25,10 @@ exports.seed = function(knex) {
         {
           id: 3,
           name: "relax",
-          description: "enjoy the weekend before next weeks classes",
+          description: "enjoy the weekend ",
           completed: false
         }
       ]);
     });
 };
+
