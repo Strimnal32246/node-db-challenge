@@ -36,7 +36,7 @@ router.get("/", (req, res) => {
 
 // Tasks CRUD
 
-router.post("/:id/tasks", (req, res) => {
+router.post("/tasks/:id", (req, res) => {
   const newTask = req.body;
   const { id } = req.params;
   if (!newTask.description) {
